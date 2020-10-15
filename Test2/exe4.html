@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 4</title>
+</head>
+<body>
+    First : <input type="number" id="one"><br><br><br>
+    Second : <input type="number" id="two"><br><br>
+
+    <input type="button" onclick="sum()" value="sum">
+
+    <script>
+        function sum(a,b)
+        {
+            a = document.getElementById("one").value;
+            b = document.getElementById("two").value;
+
+            let result = parseInt(a) + parseInt(b);
+            alert(result);
+        }
+    </script>
+</body>
+</html>
+
+

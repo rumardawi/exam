@@ -1,0 +1,24 @@
+1>SELECT name AS STAFF_NAME FROM staff
+
+2>SELECT DISTINCT department_id FROM staff
+
+3>SELECT *FROM staff ORDER BY name
+
+4>
+
+5>SELECT *FROM `staff` WHERE name IN ('Kay Thwe','Thae Su Wai')
+
+6>
+
+7>SELECT *FROM `staff` WHERE name LIKE'%a%'
+
+8>SELECT *FROM `staff` WHERE name LIKE'%e'
+
+9>SELECT *FROM `staff` WHERE salary BETWEEN 100000 AND 500000
+
+10> SELECT *FROM `staff` WHERE joundate LIKE '2014-02%'
+
+
+13> SELECT *FROM `staff` LIMIT 5;
+
+14> SELECT  salary FROM `staff` ORDER BY salary DESC LIMIT 3;
